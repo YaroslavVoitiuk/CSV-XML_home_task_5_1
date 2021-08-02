@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ru.netology.AppTest" time="0.046" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/yaroslavvoitiuk/IdeaProjects/task5.1/target/test-classes:/Users/yaroslavvoitiuk/IdeaProjects/task5.1/target/classes:/Users/yaroslavvoitiuk/.m2/repository/com/opencsv/opencsv/5.3/opencsv-5.3.jar:/Users/yaroslavvoitiuk/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/yaroslavvoitiuk/.m2/repository/org/apache/commons/commons-text/1.9/commons-text-1.9.jar:/Users/yaroslavvoitiuk/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/yaroslavvoitiuk/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/yaroslavvoitiuk/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/yaroslavvoitiuk/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/yaroslavvoitiuk/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/yaroslavvoitiuk/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/yaroslavvoitiuk/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/yaroslavvoitiuk/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="UA"/>
+    <property name="sun.boot.library.path" value="/Users/yaroslavvoitiuk/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/yaroslavvoitiuk/IdeaProjects/task5.1/target/surefire/surefirebooter17597680058860187013.jar /Users/yaroslavvoitiuk/IdeaProjects/task5.1/target/surefire 2021-08-02T21-39-52_020-jvmRun1 surefire15160210252076961781tmp surefire_014658666307526383102tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/yaroslavvoitiuk/IdeaProjects/task5.1/target/test-classes:/Users/yaroslavvoitiuk/IdeaProjects/task5.1/target/classes:/Users/yaroslavvoitiuk/.m2/repository/com/opencsv/opencsv/5.3/opencsv-5.3.jar:/Users/yaroslavvoitiuk/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/yaroslavvoitiuk/.m2/repository/org/apache/commons/commons-text/1.9/commons-text-1.9.jar:/Users/yaroslavvoitiuk/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/yaroslavvoitiuk/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/yaroslavvoitiuk/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/yaroslavvoitiuk/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/yaroslavvoitiuk/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/yaroslavvoitiuk/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/yaroslavvoitiuk/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/yaroslavvoitiuk/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/yaroslavvoitiuk"/>
+    <property name="user.language" value="uk"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="/Users/yaroslavvoitiuk/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/yaroslavvoitiuk/IdeaProjects/task5.1"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/yaroslavvoitiuk/IdeaProjects/task5.1/target/surefire/surefirebooter17597680058860187013.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="16.0.2+7-67"/>
+    <property name="user.name" value="yaroslavvoitiuk"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="11.4"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/yaroslavvoitiuk/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/0j/70ds_9vs2mb7r9sq517xkff80000gn/T/"/>
+    <property name="idea.version" value="2021.1.3"/>
+    <property name="java.version" value="16.0.2"/>
+    <property name="user.dir" value="/Users/yaroslavvoitiuk/IdeaProjects/task5.1"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/yaroslavvoitiuk/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="16.0.2+7-67"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="ru.netology.AppTest" time="0.002"/>
+</testsuite>
