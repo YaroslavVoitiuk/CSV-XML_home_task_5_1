@@ -23,20 +23,20 @@ public class App {
     public static void main( String[] args ) throws ParserConfigurationException, IOException, SAXException {
 
         String[] columnMapping = {"id", "firstName", "lastName", "country", "age"};
-        String jsonCSV = listToJson(parseCSV(columnMapping));
+        String jsonCSV = listToJson(parseCSV(columnMapping,"data.csv"));
         writeString(jsonCSV,"data.json");
 
-        String jsonXML = listToJson(readXML());
+        String jsonXML = listToJson(parseXML("data.xml"));
         writeString(jsonXML,"new_data.json");
 
     }
 
-    public static List<Employee> readXML() throws ParserConfigurationException, IOException, SAXException {
+    public static List<Employee> parseXML(String fileName) throws ParserConfigurationException, IOException, SAXException {
 
         List<Employee> employees = new ArrayList<>();
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
-        Document document = builder.parse(new File("data.xml"));
+        Document document = builder.parse(new File(fileName));
         Node root = document.getDocumentElement();
         NodeList nodeList = root.getChildNodes();
         for (int i = 0; i < nodeList.getLength(); i++) {
@@ -55,8 +55,8 @@ public class App {
     }
 
 
-    public static List<Employee> parseCSV(String [] columnMapping){
-        try (CSVReader csvReader = new CSVReader(new FileReader("data.csv"))){
+    public static List<Employee> parseCSV(String [] columnMapping, String fileName){
+        try (CSVReader csvReader = new CSVReader(new FileReader(fileName))){
             ColumnPositionMappingStrategy<Employee> strategy = new ColumnPositionMappingStrategy<>();
             strategy.setType(Employee.class);
             strategy.setColumnMapping(columnMapping);
